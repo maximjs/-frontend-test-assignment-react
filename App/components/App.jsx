@@ -86,10 +86,8 @@ class App extends React.Component {
           clearInterval(timerId);
           this.setState({ tasks: updateTasks, renderTasks: newRenderTasks });
           localStorage.setItem('saveState', JSON.stringify(this.state));
-          console.log('before if');
           return;
         }
-        console.log('after if');
         const newLastRenderTasksArrIndex = newRenderTasks.length - 1;
         const newCurrentTaskArrIndex = currentTaskArrIndex <= newLastRenderTasksArrIndex ? currentTaskArrIndex : currentTaskArrIndex - 1;
         const nextCurrentTask = { ...newRenderTasks[newCurrentTaskArrIndex] };
