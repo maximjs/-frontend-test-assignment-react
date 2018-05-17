@@ -20,7 +20,7 @@
   },
   "author": "Maxim Kozlyakov",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://calm-reef-49778.herokuapp.com/",
   "dependencies": {
     "babel-cli": "*",
     "babel-core": "*",
