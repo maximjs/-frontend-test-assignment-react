@@ -6,15 +6,17 @@
     "node": "9.8"
   },
   "scripts": {
+    "postinstall": "npm run webpack && npm run build",
     "babel-node": "babel-node",
     "start": "babel-node ./server/bin/slack.js",
     "eslint": "eslint .",
     "webpack": "webpack --mode=production",
-    "watch": "webpack --watch --mode=production"
+    "watch": "webpack --watch --mode=production",
+    "build": "set NODE_ENV=production && babel src/server.js --out-file server.js --source-maps inline"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maximjs/"
+    "url": "https://github.com/maximjs/frontend-test-assignment-react"
   },
   "author": "Maxim Kozlyakov",
   "license": "ISC",
@@ -30,6 +32,7 @@
     "bootstrap": "*",
     "classnames": "*",
     "css-loader": "*",
+    "express": "^4.16.3",
     "html-webpack-plugin": "*",
     "moment": "^2.22.1",
     "react": "*",
