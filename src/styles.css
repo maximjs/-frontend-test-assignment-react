@@ -1,0 +1,39 @@
+.start-button {
+  margin: 200px 50%;
+}
+
+.time {
+  color: RoyalBlue;
+}
+
+.timer {
+  float: right;
+}
+
+.image-question {
+  clear: right;
+  display: block;
+}
+
+.answer {
+  margin-top: 20px;
+}
+
+.button-prev {
+  float: left;
+}
+
+.answer-form {
+  margin-left: 85px;
+  width: 600px;
+  float: left;
+}
+
+.button-next {
+  float: right;
+}
+
+.button-submit {
+  margin-top: 10px;
+  margin-left: 240px;
+}

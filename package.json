@@ -1,0 +1,50 @@
+{
+  "name": "frontend_test_assignment_future-group",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": "9.8"
+  },
+  "scripts": {
+    "babel-node": "babel-node",
+    "start": "babel-node ./server/bin/slack.js",
+    "eslint": "eslint .",
+    "webpack": "webpack --mode=production",
+    "watch": "webpack --watch --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximjs/"
+  },
+  "author": "Maxim Kozlyakov",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "bootstrap": "*",
+    "classnames": "*",
+    "css-loader": "*",
+    "html-webpack-plugin": "*",
+    "moment": "^2.22.1",
+    "react": "*",
+    "react-bootstrap": "*",
+    "react-dom": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-config-react": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*"
+  }
+}
